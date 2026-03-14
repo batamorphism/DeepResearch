@@ -101,25 +101,31 @@ Mermaid reconstruction of the paper’s taxonomy (conceptual re-expression of Fi
 
 ```mermaid
 flowchart TB
-  A[Generative models (survey taxonomy)] --> B[Implicit density]
-  A --> C[Explicit / approximate density]
+  A["Generative models (survey taxonomy)"] --> B["Implicit density"]
+  A --> C["Explicit / approximate density"]
 
-  B --> GAN[GANs]
-  GAN --> GAN1[Loss & regularization branches<br/>batch norm, spectral norm, Lipschitz, gradient penalty, least-squares]
-  GAN --> GAN2[Architecture branch<br/>Laplacian pyramid (multi-scale)]
+  B --> GAN["GANs"]
+  GAN --> GAN1["Loss and regularization branches"]
+  GAN1 --> GAN1A["batch norm"]
+  GAN1 --> GAN1B["spectral norm"]
+  GAN1 --> GAN1C["Lipschitz"]
+  GAN1 --> GAN1D["gradient penalty"]
+  GAN1 --> GAN1E["least-squares"]
+  GAN --> GAN2["Architecture branch"]
+  GAN2 --> GAN2A["Laplacian pyramid (multi-scale)"]
 
-  C --> VAE[VAEs]
-  VAE --> VAE1[ELBO-based]
-  VAE --> VAE2[MMD-based]
+  C --> VAE["VAEs"]
+  VAE --> VAE1["ELBO-based"]
+  VAE --> VAE2["MMD-based"]
 
-  C --> DM[Diffusion models]
-  DM --> DM1[DDPMs]
-  DM --> DM2[SGMs]
-  DM --> DM3[Score-SDEs]
+  C --> DM["Diffusion models"]
+  DM --> DM1["DDPMs"]
+  DM --> DM2["SGMs"]
+  DM --> DM3["Score-SDEs"]
 
-  A --> H[Hybrid GAN–VAE]
-  H --> H1[Adversarial learning (ALI/BiGAN-like)]
-  H --> H2[Learned similarity metrics (VAE-GAN-like)]
+  A --> H["Hybrid GAN-VAE"]
+  H --> H1["Adversarial learning (ALI/BiGAN-like)"]
+  H --> H2["Learned similarity metrics (VAE-GAN-like)"]
 ```
 
 ### Datasets and benchmarks emphasized
