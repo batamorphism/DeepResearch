@@ -18,7 +18,7 @@ Reading date: 2026-03-14 (Asia/Tokyo).
 
 ### Official citation, publisher DOI, and publisher PDF
 
-The version of record is published in entity["organization","Journal of Big Data","bmc springeropen journal"] (Survey; Open Access) with article number 230 in volume 12 (2025), published 08 Oct 2025.
+The version of record is published in Journal of Big Data (Survey; Open Access) with article number 230 in volume 12 (2025), published 08 Oct 2025.
 
 Official bibliographic citation (publisher-provided format):
 Yazdani, S., Singh, A., Saxena, N. *et al.* (2025). *Generative AI in depth: A survey of recent advances, model variants, and real-world applications.* *J Big Data* 12, 230. https://doi.org/10.1186/s40537-025-01247-x.
@@ -29,12 +29,12 @@ The article is distributed under a Creative Commons Attribution 4.0 license (CC 
 
 ### arXiv preprint record and arXiv DOI
 
-The paper is also available as an entity["organization","arXiv","preprint repository"] preprint: arXiv:2510.21887.
+The paper is also available as an arXiv preprint: arXiv:2510.21887.
 arXiv DOI (DataCite): **10.48550/arXiv.2510.21887**.
 
 ### Institutional repository / university record
 
-An institutional metadata record exists at entity["organization","Florida International University","public university miami"] (FIU Discovery), listing the DOI and publication date; it does not (in the visible record) provide a hosted PDF, pointing instead to the DOI.
+An institutional metadata record exists at Florida International University (FIU Discovery), listing the DOI and publication date; it does not (in the visible record) provide a hosted PDF, pointing instead to the DOI.
 
 ### Official PDF/URL links and DOIs (code block)
 
@@ -233,18 +233,18 @@ In provenance/authentication, the survey explicitly mentions the Coalition for C
 
 Recent deployments align closely with the survey’s emphasis on (a) diffusion/video generation growth and (b) provenance/guardrails:
 
-- entity["company","OpenAI","ai research company"]: Sora’s public rollout messaging emphasizes provenance signals: visible watermarking and embedded C2PA metadata to distinguish AI-generated video.
-- entity["company","Google","technology company"]: Google’s 2024 announcement introduces Veo (video generation) and Imagen 3 (text-to-image) and explicitly frames “responsible deployment” including safeguards and digital watermarks.
-- entity["company","Runway","ai video company"]: The Gen-3 Alpha announcement states the model will ship with safeguards including an in-house moderation system and “C2PA provenance standards.”
-- entity["company","Adobe","software company"]: Firefly Image 3 communications emphasize automatic attachment of “Content Credentials” to generated content, describing them as tamper-evident metadata built on the C2PA standard.
-- entity["company","Stability AI","generative ai company"]: Stable Diffusion 3’s official announcement provides unusually concrete model-scale details (800M–8B parameter range) and explicitly states architectural choices (diffusion transformer + flow matching), illustrating the “model variants” evolution the survey reviews at a conceptual level.
+- OpenAI: Sora’s public rollout messaging emphasizes provenance signals: visible watermarking and embedded C2PA metadata to distinguish AI-generated video.
+- Google: Google’s 2024 announcement introduces Veo (video generation) and Imagen 3 (text-to-image) and explicitly frames “responsible deployment” including safeguards and digital watermarks.
+- Runway: The Gen-3 Alpha announcement states the model will ship with safeguards including an in-house moderation system and “C2PA provenance standards.”
+- Adobe: Firefly Image 3 communications emphasize automatic attachment of “Content Credentials” to generated content, describing them as tamper-evident metadata built on the C2PA standard.
+- Stability AI: Stable Diffusion 3’s official announcement provides unusually concrete model-scale details (800M–8B parameter range) and explicitly states architectural choices (diffusion transformer + flow matching), illustrating the “model variants” evolution the survey reviews at a conceptual level.
 
 Japanese-language governance sources that connect directly to the survey’s ethics and responsible-deployment framing include the Japanese government’s AI business guidelines:
-- entity["organization","Ministry of Economy, Trade and Industry","japan government ministry"] (with entity["organization","Ministry of Internal Affairs and Communications","japan government ministry"]): a 2024 press release explains the integration and update of multiple prior guidelines into the “AI Business Guidelines (v1.0)” to respond to rapid changes including the spread of generative AI.
+- Ministry of Economy, Trade and Industry (with Ministry of Internal Affairs and Communications): a 2024 press release explains the integration and update of multiple prior guidelines into the “AI Business Guidelines (v1.0)” to respond to rapid changes including the spread of generative AI.
 
 For provenance standards themselves, the C2PA organization describes Content Credentials as an open technical standard to establish origin/edits of digital content.
-A concrete hardware implementation example is entity["company","Leica Camera AG","camera manufacturer"], which states the M11-P integrates content authentication according to CAI and C2PA.
-The page also names the entity["organization","Content Authenticity Initiative","content provenance coalition"] as the ecosystem context for this approach.
+A concrete hardware implementation example is Leica Camera AG, which states the M11-P integrates content authentication according to CAI and C2PA.
+The page also names the Content Authenticity Initiative as the ecosystem context for this approach.
 
 ### Critical evaluation: strengths, limitations, and gaps
 
